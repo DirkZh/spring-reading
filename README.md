@@ -1,90 +1,29 @@
-<div align="center">
-    <img alt="logo" src="image/banner.png" style="height: 80px">
-</div>
-<div align="center">
-    <h2>深入Spring，从源码开始！</h2>
-    <h4>探索Java最受欢迎的框架，理解它的内部机制，带大家从入门到精通。</h4>
-</div>
-<p align="center">
-    <a href="https://github.com/xuchengsheng/spring-reading/stargazers"><img src="https://img.shields.io/github/stars/xuchengsheng/spring-reading?logo=github&logoColor=%23EF2D5E&label=Stars&labelColor=%23000000&color=%23EF2D5E&cacheSeconds=3600" alt="Stars Badge"/></a>
-    <a href="https://github.com/xuchengsheng"><img src="https://img.shields.io/github/followers/xuchengsheng?label=Followers&logo=github&logoColor=%23FC521F&labelColor=%231A2477&color=%23FC521F&cacheSeconds=3600" alt="Follow Badge"></a>
-    <a href="https://github.com/xuchengsheng/spring-reading/fork"><img src="https://img.shields.io/github/forks/xuchengsheng/spring-reading?label=Forks&logo=github&logoColor=%23F2BB13&labelColor=%23BE2323&color=%23F2BB13" alt="Fork Badge"></a>
-    <a href="https://github.com/xuchengsheng/spring-reading/watchers"><img src="https://img.shields.io/github/watchers/xuchengsheng/spring-reading?label=Watchers&logo=github&logoColor=%23FF4655&labelColor=%234169E1&color=%23FF4655&cacheSeconds=3600" alt="Watchers Badge"></a>
-</p>
-<p align="center">
-    <img src="https://visitor-badge.lithub.cc/badge?page_id=github.com/xuchengsheng&left_text=Visitors" alt="Visitor Badge"/>
-    <img src="https://img.shields.io/badge/WeChat-spring_reading-%2307C160?logo=wechat" alt="Wechat Badge"/>
-    <a href="https://blog.csdn.net/duzhuang2399"><img src="https://img.shields.io/badge/dynamic/xml?url=https%3A%2F%2Fblog.csdn.net%2Fduzhuang2399&query=%2F%2F*%5B%40id%3D%22userSkin%22%5D%2Fdiv%5B1%5D%2Fdiv%5B2%5D%2Fdiv%5B1%5D%2Fdiv%2Fdiv%5B2%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B2%5D%2Fspan&logo=C&logoColor=red&label=CSDN&color=red&cacheSeconds=3600" alt="CSDN Badge"></a>
-        <a href="https://hellogithub.com/repository/f43b683fa175499ca3af4e9b1684e88b" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=f43b683fa175499ca3af4e9b1684e88b&claim_uid=AVv4KeNnZs2Ig3a&theme=small" alt="Featured｜HelloGitHub"/></a>
-</p>
-<p align="center">
-    ⚡ <a href="#技术">技术</a>
-    |
-    👋 <a href="#简介">简介</a>
-    |
-    🍵 <a href="#为何做Spring源码分析">Why</a>
-    |
-    🙏 <a href="#顺手点个星">点个星</a>
-    |
-    🌱 <a href="#spring-源码阅读系列">Spring源码</a>
-    |
-    💬 <a href="#与我联系">联系我</a>
-    |
-    ⛵ <a href="#欢迎贡献">贡献</a>
-    |
-    🔄 <a href="#持续更新中">更新</a>
-    |
-    💻 <a href="#我的-github-统计">统计</a>
-</p>
-
-
----
-
-## ⚡技术
-
-<div align="left">
-    <img src="https://img.shields.io/badge/Java-1.8%2B-%23437291?logo=openjdk&logoColor=%23437291"/>
-    <img src="https://img.shields.io/badge/Spring-5.3.10-%23437291?logo=Spring&logoColor=%236DB33F&color=%236DB33F"/>
-    <img src="https://img.shields.io/badge/SpringBoot-2.5.5-%23437291?logo=SpringBoot&logoColor=%236DB33F&color=%236DB33F"/>
-    <img src="https://img.shields.io/badge/Maven-3.6.3-%23437291?logo=Apache%20Maven&logoColor=%23C71A36&color=%23C71A36"/>
-    <img src="https://img.shields.io/badge/JSR-330-%2366CCFF?logo=OpenJDK&logoColor=%2366CCFF&color=%2366CCFF"/>
-    <img src="https://img.shields.io/badge/JSR-250-%23FF9900?logo=OpenJDK&logoColor=%23FF9900&color=%23FF9900"/>
-</div>
-
-## 👋简介
-大家好呀，我是Lex👨‍💻。我是一名拥有8年经验的Java 后端开发人员👨‍💼，也是一个对 Spring 框架充满热情❤️的程序员。为了帮助那些希望深入了解 Spring 框架的程序员们🧑‍💻，我创建了这个 “Spring 源码阅读系列”📖。通过这个系列，我希望能够与你们共同探索 Spring 的内部工作机制⚙️。如果您有同样的兴趣或问题🤔，请联系我📩！
-
-## 🍵**为何做Spring源码分析**
-在我作为框架研发的开发者👨‍🔬的工作中，我经常遇到需要深入理解和调整框架行为的情况🔧。这些工作不只是简单地使用框架的API，更多地是需要对框架的内部工作方式有详细的了解🔍。虽然Github上有关于Spring的简化版本📦，这些对于入门学习确实有很大的帮助✅，但当涉及到真实的项目应用时，与真正的Spring框架还是有很大的差异❌。因此，我开始深入研究Spring的源码，希望能够更透彻地理解其内部的工作机制，以便更好地应用到我的实际工作中🧰。分享我的源码分析📝，也是为了给那些希望真正理解Spring，而不仅仅是使用它的开发者提供一些参考和帮助🙌。
-
-## 🙏顺手点个星
-亲爱的朋友们👥，我真的花了很多心思💭去研究和整理这个“Spring 源码阅读系列”📘。如果你觉得这东西还不错👍，或者给你带来了一点点帮助🤗，麻烦点一下星星吧🌟。这真的对我意义重大🎖，每一颗星✨都能让我觉得所有的努力都是值得的💪。我知道这是小事一桩，但你的那一下点击🖱，对我来说就是最好的鼓励🎉。无论如何，都要感谢你抽时间🕰阅读我的内容，真的很感激🙏！
 
 ## 🌱Spring 源码阅读系列
 
 + Spring Core
   + 资源加载与访问
-    - [Resource](spring-resources/spring-resource/README.md)：抽象接口，表示文件、类路径等，用于访问不同来源的资源。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-    - [ResourceLoader](spring-resources/spring-resource-resourceLoader/README.md)：资源获取核心接口，实现统一加载不同位置资源的策略。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-    - [ResourcePatternResolver](spring-resources/spring-resource-resourcePatternResolver/README.md)：资源模式解析接口，用于灵活加载应用中的多种资源。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-    - [DocumentLoader](spring-resources/spring-resource-documentLoader/README.md)：XML文档加载解析核心接口，支持后台自动配置Spring应用。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [Resource](spring-resources/spring-resource/README.md)：抽象接口，表示文件、类路径等，用于访问不同来源的资源。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [ResourceLoader](spring-resources/spring-resource-resourceLoader/README.md)：资源获取核心接口，实现统一加载不同位置资源的策略。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [ResourcePatternResolver](spring-resources/spring-resource-resourcePatternResolver/README.md)：资源模式解析接口，用于灵活加载应用中的多种资源。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [DocumentLoader](spring-resources/spring-resource-documentLoader/README.md)：XML文档加载解析核心接口，支持后台自动配置Spring应用。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
 
   + 元数据与过滤
-    - [MetadataReader](spring-metadata/spring-metadata-metadataReader/README.md)：类元数据获取核心，支持组件扫描、条件化注解、AOP等高级功能。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-    - [AnnotationMetadata](spring-metadata/spring-metadata-annotationMetadata/README.md)：动态获取和操作运行时类注解信息。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-    - [TypeFilter](spring-metadata/spring-metadata-typeFilter/README.md)：组件扫描时自定义类筛选，支持复杂条件和精确过滤。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-    - [Condition](spring-metadata/spring-metadata-condition/README.md)：条件判断，决定Bean创建和配置的灵活机制。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [MetadataReader](spring-metadata/spring-metadata-metadataReader/README.md)：类元数据获取核心，支持组件扫描、条件化注解、AOP等高级功能。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [AnnotationMetadata](spring-metadata/spring-metadata-annotationMetadata/README.md)：动态获取和操作运行时类注解信息。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [TypeFilter](spring-metadata/spring-metadata-typeFilter/README.md)：组件扫描时自定义类筛选，支持复杂条件和精确过滤。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [Condition](spring-metadata/spring-metadata-condition/README.md)：条件判断，决定Bean创建和配置的灵活机制。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
 
   + 验证、数据绑定和类型转换
-    - [Validator](spring-dataops/spring-dataops-validator/README.md)：提供自定义数据验证逻辑，确保模型对象满足业务规则。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-    - [PropertyEditor](spring-dataops/spring-dataops-propertyEditor/README.md)：自定义JavaBean属性的转换逻辑，处理属性类型转换。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-    - [Converter](spring-dataops/spring-dataops-converter/README.md)：用于不同类型间的转换，定义简单的源至目标类型转换规则。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-    - [ConverterFactory](spring-dataops/spring-dataops-converterFactory/README.md)：创建针对特定源类型的转换器，用于类型转换。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-    - [GenericConverter](spring-dataops/spring-dataops-genericConverter/README.md)：更复杂的转换器，支持多种源和目标类型转换。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-    - [ConditionalConverter](spring-dataops/spring-dataops-conditionalConverter/README.md)：根据条件选择是否执行转换的转换器。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-    - [ConversionService](spring-dataops/spring-dataops-conversionService/README.md)：提供统一的类型转换服务接口，管理转换器。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-    - [Printer](spring-dataops/spring-dataops-printer/README.md)：用于将对象格式化为文本，专注于格式化输出。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-    - [Parser](spring-dataops/spring-dataops-parser/README.md)：用于将文本解析为对象，专注于解析逻辑。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [Validator](spring-dataops/spring-dataops-validator/README.md)：提供自定义数据验证逻辑，确保模型对象满足业务规则。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [PropertyEditor](spring-dataops/spring-dataops-propertyEditor/README.md)：自定义JavaBean属性的转换逻辑，处理属性类型转换。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [Converter](spring-dataops/spring-dataops-converter/README.md)：用于不同类型间的转换，定义简单的源至目标类型转换规则。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [ConverterFactory](spring-dataops/spring-dataops-converterFactory/README.md)：创建针对特定源类型的转换器，用于类型转换。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [GenericConverter](spring-dataops/spring-dataops-genericConverter/README.md)：更复杂的转换器，支持多种源和目标类型转换。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [ConditionalConverter](spring-dataops/spring-dataops-conditionalConverter/README.md)：根据条件选择是否执行转换的转换器。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [ConversionService](spring-dataops/spring-dataops-conversionService/README.md)：提供统一的类型转换服务接口，管理转换器。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [Printer](spring-dataops/spring-dataops-printer/README.md)：用于将对象格式化为文本，专注于格式化输出。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [Parser](spring-dataops/spring-dataops-parser/README.md)：用于将文本解析为对象，专注于解析逻辑。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
 
   + Spring 表达式语言（SpEL）
     - [ExpressionParser](spring-spel/spring-spel-expressionParser/README.md): 解析字符串形式的 SpEL 表达式，创建并返回 Expression 实例。<img src="https://img.shields.io/badge/Level-%E5%9B%B0%E9%9A%BE-%23FF3030"></img>
@@ -243,48 +182,3 @@
 
 + Spring MVC
 + Spring OpenFeign
-
-## 💬与我联系
-
-✉️ [Email](xuchengshengsuper@163.com) | 💬 [Issue](https://github.com/xuchengsheng/spring-reading/issues) | 🌐 [CSDN](https://blog.csdn.net/duzhuang2399?type=blog)  Me about everything!
-
-## ⛵欢迎贡献！
-
-如果你发现任何错误🔍或者有改进建议🛠️，欢迎提交 issue 或者 pull request。你的反馈📢对于我非常宝贵💎！
-
-## 🔄持续更新中
-
-为了给大家提供最新🌱、最有价值的内容💼，我会坚持每天更新这个仓库⏳。每一天，你都可以期待看到一些新的内容或者对已有内容的改进✨。如果你有任何建议或反馈📣，欢迎随时联系我📞。我非常珍视每一个反馈💌，因为这是我持续改进的动力🚀。
-
-## ✨Star History
-
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=xuchengsheng/spring-reading&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=xuchengsheng/spring-reading&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=xuchengsheng/spring-reading&type=Date" />
- </picture>
-
-## 🎉Stargazers
-
-[![Stargazers123 repo roster for @xuchengsheng/spring-reading](https://reporoster.com/stars/xuchengsheng/spring-reading)](https://github.com/xuchengsheng/spring-reading/stargazers)
-
-## 🎉Forkers
-
-[![Forkers repo roster for @xuchengsheng/spring-reading](https://reporoster.com/forks/xuchengsheng/spring-reading)](https://github.com/xuchengsheng/spring-reading/network/members)
-
-## 🍱请我吃盒饭？
-
-作者晚上还要写博客✍️,平时还需要工作💼,如果帮到了你可以请作者吃个盒饭🥡
-<div>
-<img alt="logo" src="image/WeChatPay.png" style="width: 260px;height: 280px">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img alt="logo" src="image/Alipay.png" style="width: 260px;height: 280px">
-</div>
-
-## 👥**关注公众号**
-
-关注后，回复关键字 **“加群”**，即可加入我们的技术交流群，与更多开发者一起交流学习。
-
-<div>
-<img alt="logo" src="image/wechat-mp.png" style="height: 220px">
-</div>
