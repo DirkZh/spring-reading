@@ -2,6 +2,9 @@ package com.xcs.spring;
 
 public class MyBean {
 
+    public MyBean() {
+    }
+
     public MyBean(String name) {
         this.name = name;
     }
