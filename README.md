@@ -30,9 +30,9 @@
     - ✅ [Expression](spring-spel/spring-spel-expression/README.md): 对表达式字符串进行求值的功能，支持类型转换、获取原始字符串等操作。<img src="https://img.shields.io/badge/Level-%E5%9B%B0%E9%9A%BE-%23FF3030"></img>
     - ✅ [EvaluationContext](spring-spel/spring-spel-evaluationContext/README.md): 管理SpEL表达式的上下文信息。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
     - ✅ [PropertyAccessor](spring-spel/spring-spel-propertyAccessor/README.md): 用于读取和写入对象的属性，可用于实现自定义的属性访问逻辑。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-    - [ConstructorResolver](spring-spel/spring-spel-constructorResolver/README.md): 解析构造函数确定bean的实例化方式。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-    - [MethodResolver](spring-spel/spring-spel-methodResolver/README.md): 解析类方法，确保正确调用，处理重载和参数匹配。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-    - [BeanResolver](spring-spel/spring-spel-beanResolver/README.md): 解析bean定义，包括依赖、属性设置，实例化并返回。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [ConstructorResolver](spring-spel/spring-spel-constructorResolver/README.md): 解析构造函数确定bean的实例化方式。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [MethodResolver](spring-spel/spring-spel-methodResolver/README.md): 解析类方法，确保正确调用，处理重载和参数匹配。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [BeanResolver](spring-spel/spring-spel-beanResolver/README.md): 解析bean定义，包括依赖、属性设置，实例化并返回。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
     - [TypeLocator](spring-spel/spring-spel-typeLocator/README.md): 动态查找类，返回Class对象，在表达式解析、类型转换等。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
     - [TypeConverter](spring-spel/spring-spel-typeLocator/README.md): 类型转换功能，将表达式中的数据从一种类型转换为另一种类型。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
     - [TypeComparator](spring-spel/spring-spel-typeLocator/README.md): 类型比较功能，定义了比较两个对象是否相等的方法。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
