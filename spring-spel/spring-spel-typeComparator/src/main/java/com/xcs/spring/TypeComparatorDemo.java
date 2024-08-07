@@ -16,7 +16,7 @@ public class TypeComparatorDemo {
         Expression expression = parser.parseExpression("'2' < '-5.0'");
 
         // 使用TypeComparator进行比较
-        boolean result = expression.getValue(context,Boolean.class);
+        Boolean result = expression.getValue(context, Boolean.class);
 
         // 打印比较后的值
         System.out.println("result : " + result);
