@@ -39,9 +39,9 @@
     - ✅ [OperatorOverloader](spring-spel/spring-spel-operatorOverloader/README.md): 运算符重载功能，对表达式中的运算符进行自定义操作的方法。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
 
   + Bean定义与注册
-    - [BeanDefinition](spring-beans/spring-bean-beanDefinition/README.md)：详细描述Bean，支持依赖注入、AOP、作用域控制等核心功能。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-    - [BeanDefinitionHolder](spring-beans/spring-bean-beanDefinitionHolder/README.md)：管理和操作BeanDefinition的关键类。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-    - [BeanDefinitionRegistry](spring-beans/spring-bean-beanDefinitionRegistry/README.md)：Bean定义注册管理关键接口，处理Bean元数据。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [BeanDefinition](spring-beans/spring-bean-beanDefinition/README.md)：详细描述Bean，支持依赖注入、AOP、作用域控制等核心功能。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [BeanDefinitionHolder](spring-beans/spring-bean-beanDefinitionHolder/README.md)：管理和操作BeanDefinition的关键类。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [BeanDefinitionRegistry](spring-beans/spring-bean-beanDefinitionRegistry/README.md)：Bean定义注册管理关键接口，处理Bean元数据。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
 
   + Bean定义读取与扫描
     - [XmlBeanDefinitionReader](spring-beans/spring-bean-xmlBeanDefinitionReader/README.md)：加载解析XML配置，构建IOC容器，注册Bean定义。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>

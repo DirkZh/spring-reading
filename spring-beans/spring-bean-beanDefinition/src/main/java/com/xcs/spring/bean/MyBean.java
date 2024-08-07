@@ -36,7 +36,7 @@ public class MyBean {
 
     @Override
     public String toString() {
-        return "MyBean{" +
+        return Integer.toHexString(hashCode()) + "@" + "MyBean{" +
                 "name='" + name + '\'' +
                 ", age='" + age + '\'' +
                 '}';

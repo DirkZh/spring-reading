@@ -4,6 +4,7 @@ import com.xcs.spring.bean.MyBean;
 import org.springframework.beans.factory.annotation.AnnotatedGenericBeanDefinition;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
+import org.springframework.beans.factory.support.GenericBeanDefinition;
 import org.springframework.context.annotation.ScannedGenericBeanDefinition;
 import org.springframework.core.type.classreading.MetadataReader;
 import org.springframework.core.type.classreading.SimpleMetadataReaderFactory;
@@ -20,18 +21,23 @@ public class BeanDefinitionDemo {
         beanFactory.registerBeanDefinition("myBean", createBeanDefinition());
 
         // 获取MyBean
-        MyBean myChildBean = beanFactory.getBean("myBean", MyBean.class);
+        MyBean bean1 = (MyBean) beanFactory.getBean("myBean");
+        MyBean bean2 = beanFactory.getBean(MyBean.class);
         // 打印Bean对象
-        System.out.println("MyBean = " + myChildBean);
+        System.out.println("bean1 = " + bean1);
+        System.out.println("bean2 = " + bean2);
         // 销毁myBean
         beanFactory.destroySingleton("myBean");
     }
 
     private static BeanDefinition createBeanDefinition() throws IOException {
-        SimpleMetadataReaderFactory metadataReaderFactory = new SimpleMetadataReaderFactory();
-        MetadataReader metadataReader = metadataReaderFactory.getMetadataReader(MyBean.class.getName());
 
-        ScannedGenericBeanDefinition beanDefinition = new ScannedGenericBeanDefinition(metadataReader);
+//        SimpleMetadataReaderFactory metadataReaderFactory = new SimpleMetadataReaderFactory();
+//        MetadataReader metadataReader = metadataReaderFactory.getMetadataReader(MyBean.class.getName());
+
+//        ScannedGenericBeanDefinition beanDefinition = new ScannedGenericBeanDefinition(metadataReader);
+        GenericBeanDefinition beanDefinition = new AnnotatedGenericBeanDefinition(MyBean.class);
+
         beanDefinition.setScope("singleton");
         beanDefinition.setLazyInit(true);
         beanDefinition.setPrimary(true);
