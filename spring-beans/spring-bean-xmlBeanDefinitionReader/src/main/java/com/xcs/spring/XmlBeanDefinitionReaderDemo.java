@@ -18,7 +18,8 @@ public class XmlBeanDefinitionReaderDemo {
         // 创建XmlBeanDefinitionReader实例用于解析XML配置
         XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);
         // 加载XML配置文件
-        reader.loadBeanDefinitions(new ClassPathResource("beans.xml"));
+        ClassPathResource resource = new ClassPathResource("beans.xml");
+        reader.loadBeanDefinitions(resource);
 
         // 获取并使用Bean
         MyBean myBean = factory.getBean("myBean", MyBean.class);

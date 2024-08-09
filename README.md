@@ -44,10 +44,10 @@
     - ✅ [BeanDefinitionRegistry](spring-beans/spring-bean-beanDefinitionRegistry/README.md)：Bean定义注册管理关键接口，处理Bean元数据。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
 
   + Bean定义读取与扫描
-    - [XmlBeanDefinitionReader](spring-beans/spring-bean-xmlBeanDefinitionReader/README.md)：加载解析XML配置，构建IOC容器，注册Bean定义。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
-    - [PropertiesBeanDefinitionReader](spring-beans/spring-bean-propertiesBeanDefinitionReader/README.md)：属性文件加载，解析为Bean定义。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
-    - [GroovyBeanDefinitionReader](spring-beans/spring-bean-groovyBeanDefinitionReader/README.md)：Groovy脚本解析为Bean定义。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
-    - [AnnotatedBeanDefinitionReader](spring-beans/spring-bean-annotatedBeanDefinitionReader/README.md)：注解配置，自动扫描注册Spring组件，简化Bean定义配置。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
+    - ✅ [XmlBeanDefinitionReader](spring-beans/spring-bean-xmlBeanDefinitionReader/README.md)：加载解析XML配置，构建IOC容器，注册Bean定义。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
+    - ✅ [PropertiesBeanDefinitionReader](spring-beans/spring-bean-propertiesBeanDefinitionReader/README.md)：属性文件加载，解析为Bean定义。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
+    - ✅ [GroovyBeanDefinitionReader](spring-beans/spring-bean-groovyBeanDefinitionReader/README.md)：Groovy脚本解析为Bean定义。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
+    - ✅ [AnnotatedBeanDefinitionReader](spring-beans/spring-bean-annotatedBeanDefinitionReader/README.md)：注解配置，自动扫描注册Spring组件，简化Bean定义配置。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
     - [ClassPathBeanDefinitionScanner](spring-beans/spring-bean-classPathBeanDefinitionScanner/README.md)：类路径扫描注册Spring Bean，支持自动装配。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
 
   + Bean工厂
