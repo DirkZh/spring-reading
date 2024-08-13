@@ -7,7 +7,6 @@ import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.beans.factory.config.Scope;
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.core.metrics.ApplicationStartup;
 
 import java.security.AccessControlContext;
 
@@ -37,8 +36,8 @@ public class ConfigurableBeanFactoryDemo {
         System.out.println("获取注册的Scope :" + customScope);
 
         // 获取ApplicationStartup
-        ApplicationStartup applicationStartup = configurableBeanFactory.getApplicationStartup();
-        System.out.println("获取ApplicationStartup: " + applicationStartup);
+//        ApplicationStartup applicationStartup = configurableBeanFactory.getApplicationStartup();
+//        System.out.println("获取ApplicationStartup: " + applicationStartup);
 
         // 获取AccessControlContext
         AccessControlContext accessControlContext = configurableBeanFactory.getAccessControlContext();
@@ -62,7 +61,7 @@ public class ConfigurableBeanFactoryDemo {
         // 判断是否为 FactoryBean
         String factoryBeanName = "myService";
         boolean isFactoryBean = configurableBeanFactory.isFactoryBean(factoryBeanName);
-        System.out.println("判断是否为FactoryBean" + isFactoryBean);
+        System.out.println("判断是否为FactoryBean：" + isFactoryBean);
 
         // 设置当前 Bean 是否正在创建
         String currentBeanName = "myService";

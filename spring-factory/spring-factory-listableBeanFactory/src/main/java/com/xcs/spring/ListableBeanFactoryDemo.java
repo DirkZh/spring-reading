@@ -5,6 +5,8 @@ import com.xcs.spring.service.MyService;
 import org.springframework.beans.factory.ListableBeanFactory;
 import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.core.ResolvableType;
 import org.springframework.stereotype.Service;
 
@@ -33,7 +35,7 @@ public class ListableBeanFactoryDemo {
         System.out.println("获取工厂中所有Bean定义名称: " + String.join(", ", beanDefinitionNames));
 
         // 获取 ObjectProvider，并懒加载获取 bean 实例
-        ObjectProvider<MyService> objectProvider = beanFactory.getBeanProvider(MyService.class, true);
+        ObjectProvider<MyService> objectProvider = beanFactory.getBeanProvider(MyService.class);
         System.out.println("获取Bean的ObjectProvider: " + objectProvider.getObject());
 
         // 根据类型获取所有 bean 的名称
@@ -41,11 +43,11 @@ public class ListableBeanFactoryDemo {
         System.out.println("根据类型获取Bean名称: " + String.join(", ", beanNamesForType));
 
         // 根据注解类型获取所有 bean 的名称
-        String[] beanNamesForAnnotation = beanFactory.getBeanNamesForAnnotation(Service.class);
+        String[] beanNamesForAnnotation = beanFactory.getBeanNamesForAnnotation(ComponentScan.class);
         System.out.println("根据注解获取Bean名称: " + String.join(", ", beanNamesForAnnotation));
 
         // 根据注解类型获取所有 bean 实例
-        Map<String, Object> beansWithAnnotation = beanFactory.getBeansWithAnnotation(Service.class);
+        Map<String, Object> beansWithAnnotation = beanFactory.getBeansWithAnnotation(Configuration.class);
         System.out.println("根据注解类型获取所有Bean实例: " + beansWithAnnotation);
 
         // 在指定 bean 上查找指定类型的注解
