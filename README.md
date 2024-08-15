@@ -56,11 +56,11 @@
     - ✅ [HierarchicalBeanFactory](spring-factory/spring-factory-hierarchicalBeanFactory/README.md)：支持父子容器关系，实现Bean定义的层次结构。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
     - ✅ [ConfigurableBeanFactory](spring-factory/spring-factory-configurableBeanFactory/README.md)：提供对BeanFactory配置的扩展，如属性编辑器、作用域等。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
     - ✅✅ [AutowireCapableBeanFactory](spring-factory/spring-factory-autowireCapableBeanFactory/README.md)：Bean创建、初始化、注入、销毁的核心功能接口。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
-    - [ConfigurableListableBeanFactory](spring-factory/spring-factory-configurableListableBeanFactory/README.md)：支持配置和列表操作的可配置Bean工厂接口。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
+    - ✅ [ConfigurableListableBeanFactory](spring-factory/spring-factory-configurableListableBeanFactory/README.md)：支持配置和列表操作的可配置Bean工厂接口。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
 
   + 容器上下文
-    - [ClassPathXmlApplicationContext](spring-context/spring-context-classPathXmlApplicationContext/README.md)：类路径（classpath）加载 XML 配置文件的上下文。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-    - [AnnotationConfigApplicationContext](spring-context/spring-context-annotationConfigApplicationContext/README.md)：注解配置类中加载配置信息的上下文。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [ClassPathXmlApplicationContext](spring-context/spring-context-classPathXmlApplicationContext/README.md)：类路径（classpath）加载 XML 配置文件的上下文。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - ✅ [AnnotationConfigApplicationContext](spring-context/spring-context-annotationConfigApplicationContext/README.md)：注解配置类中加载配置信息的上下文。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
     - GenericApplicationContext：支持多种配置方式，XML、注解、手动注册的上下文。<img src="https://img.shields.io/badge/%E5%8D%B3%E5%B0%86%E6%9B%B4%E6%96%B0-339933"></img>
 
   + Bean定义导入与组合
