@@ -21,7 +21,7 @@ public class MyService implements BeanNameAware, InitializingBean, DisposableBea
 
     @Override
     public void setBeanName(String name) {
-        System.out.println("MyService.setBeanName方法被调用了");
+        System.out.println("MyService.setBeanName方法被调用了，name=" + name);
     }
 
     @Override
@@ -40,7 +40,7 @@ public class MyService implements BeanNameAware, InitializingBean, DisposableBea
 
     @Override
     public String toString() {
-        return "MyService{" +
+        return "MyService@"+Integer.toHexString(hashCode())+"{" +
                 "myRepository=" + myRepository +
                 ", javaHome='" + javaHome + '\'' +
                 '}';
