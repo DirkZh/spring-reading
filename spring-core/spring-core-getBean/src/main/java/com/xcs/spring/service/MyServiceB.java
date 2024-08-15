@@ -1,5 +1,6 @@
 package com.xcs.spring.service;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
@@ -9,4 +10,13 @@ import org.springframework.stereotype.Component;
 @Component
 public class MyServiceB {
 
+    @Autowired
+    private MyServiceA myServiceA;
+
+    @Override
+    public String toString() {
+        return "MyServiceB@" + Integer.toHexString(hashCode()) + "{" +
+                "myServiceA=" + myServiceA +
+                '}';
+    }
 }

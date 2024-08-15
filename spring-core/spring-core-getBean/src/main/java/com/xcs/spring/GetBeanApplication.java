@@ -11,7 +11,9 @@ public class GetBeanApplication {
 
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(MyConfiguration.class);
-        System.out.println("myServiceA = " + context.getBean("myServiceA"));
-        System.out.println("myServiceB = " + context.getBean("myServiceB"));
+        System.out.println("myServiceA--1 = " + context.getBean("myServiceA"));
+        System.out.println("myServiceA--2 = " + context.getBean("myServiceA"));
+        System.out.println("myServiceB--1 = " + context.getBean("myServiceB"));
+        System.out.println("myServiceB--2 = " + context.getBean("myServiceB"));
     }
 }
