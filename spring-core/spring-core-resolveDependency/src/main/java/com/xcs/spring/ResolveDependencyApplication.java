@@ -54,8 +54,8 @@ public class ResolveDependencyApplication {
 
             System.out.println("解析方法依赖结果:");
             System.out.println("---------------------------------------------");
-            System.out.println(String.format("Name:   %s.%s",method.getDeclaringClass().getName(),method.getName()));
-            System.out.println(String.format("Value:  %s", value));
+            System.out.printf("Name:   %s.%s%n",method.getDeclaringClass().getName(),method.getName());
+            System.out.printf("Value:  %s%n", value);
             System.out.println("---------------------------------------------\n");
 
             // 4. 使方法可访问（特别是如果它是private的）
@@ -87,8 +87,8 @@ public class ResolveDependencyApplication {
 
             System.out.println("解析字段依赖结果:");
             System.out.println("---------------------------------------------");
-            System.out.println(String.format("Name:   %s.%s", field.getDeclaringClass().getName(), field.getName()));
-            System.out.println(String.format("Value:  %s", value));
+            System.out.printf("Name:   %s.%s%n", field.getDeclaringClass().getName(), field.getName());
+            System.out.printf("Value:  %s%n", value);
             System.out.println("---------------------------------------------\n");
 
             // 4. 使字段可访问（特别是如果它是private的）

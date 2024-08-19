@@ -71,8 +71,8 @@
   + Bean生命周期
     - ✅ [Bean的定义注册过程](spring-core/spring-core-registerBeanDefinition)：加载与解析配置文件，注册解析Bean定义，类名、作用域、属性等。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF8C69"></img>
     - ✅✅ [Bean的初始化过程](spring-core/spring-core-getBean/README.md)：实例化、属性注入、Aware回调、后置处理器、初始化方法调用。<img src="https://img.shields.io/badge/Level-%E5%9B%B0%E9%9A%BE-%23FF3030"></img>
-    - [Bean的依赖解析过程](spring-core/spring-core-resolveDependency/README.md)：声明依赖，查找依赖，注入依赖，处理循环依赖，延迟依赖解析。<img src="https://img.shields.io/badge/Level-%E5%9B%B0%E9%9A%BE-%23FF3030"></img>
-    - [Bean的销毁过程](spring-core/spring-core-destroyBean/README.md)：销毁方法调用，接口回调，后处理清理，通知触发，GC回收资源。<img src="https://img.shields.io/badge/Level-%E5%9B%B0%E9%9A%BE-%23FF3030"></img>
+    - ✅ [Bean的依赖解析过程](spring-core/spring-core-resolveDependency/README.md)：声明依赖，查找依赖，注入依赖，处理循环依赖，延迟依赖解析。<img src="https://img.shields.io/badge/Level-%E5%9B%B0%E9%9A%BE-%23FF3030"></img>
+    - ✅ [Bean的销毁过程](spring-core/spring-core-destroyBean/README.md)：销毁方法调用，接口回调，后处理清理，通知触发，GC回收资源。<img src="https://img.shields.io/badge/Level-%E5%9B%B0%E9%9A%BE-%23FF3030"></img>
 
   + 属性解析和环境配置
     - [PropertySource](spring-env/spring-env-propertySource/README.md)：管理各种配置源的抽象类，支持灵活地加载和访问应用配置。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
